@@ -15,7 +15,7 @@ destination=_connect.get_rgw_conn("destination", 1)
 _list_buckets_dest=[k.name for k in destination.get_all_buckets()]
 
 def sync_bucket(i):
-  source=_connect.get_rgw_conn("source", i)
+  source=_connect.get_rgw_conn("source", i%_num_rgw)
   position=0
   empty=False
   _aevooys_dict=[]
