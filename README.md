@@ -3,8 +3,6 @@
 ##Not a complet sync
 Copy buckets source to buckets destination
 
-write_meta_bucket.py script dump one dict per Bucket
-
 ### Used for replicated 135 million objets in > 2300 buckets
 
 ###Requires :
