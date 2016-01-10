@@ -1,4 +1,13 @@
 # RgwSimpleSync
+
+Copy buckets source to buckets destination
+
+Requires :
+ - 2 configured  clusters ceph
+ - Buckets already created on the destination
+
+Only buckets defined on the destination are copied
+
 ##Use with caution !
 
   1. cp default.json_sample /etc/ceph/RgwSimpleSync/default.json (and set)
