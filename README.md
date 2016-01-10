@@ -3,7 +3,7 @@
 ##Not a complet sync
 Copy buckets source to buckets destination
 
-### Used for replicated 135 million objets in > 2300 buckets
+### Used to replicate 135 million objets in > 2300 buckets
 
 ###Requires :
  - 2 configured  clusters ceph
