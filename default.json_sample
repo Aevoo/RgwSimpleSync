@@ -1,0 +1,18 @@
+{
+  "source": {
+    "urls": {
+      "url1":"http://localhost:80",
+      "url2":"http://localhost:81",
+      "url3":"http://localhost:82"
+    },
+    "access_key": "XXXXXXXXXXXXXXXXXXXXX",
+    "secret_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "destination": {
+    "urls": {
+      "url1":"http://localhost:8080"
+    },
+    "access_key": "XXXXXXXXXXXXXXXXXXXXX",
+    "secret_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+}
