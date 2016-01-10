@@ -18,3 +18,12 @@ Only buckets defined on the destination are copied
   3. Launch metadata collect : ./write_meta_bucket.py
   4. ./_sync.py
 
+##Description /var/lib/ceph/RgwSimpleSync/clust-X/_bucketsmeta/*.dict
+
+[
+  "BucketName",
+  {
+    "key1":"md5",
+    "key2":"md5",
+    ...
+}]
